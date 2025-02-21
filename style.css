@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(254, 238, 206);
+    background-color: #E8F5E9;
     height: 100vh; /* Set the height to fit the viewport */
     overflow: hidden; /* Prevent scrolling */
 }
@@ -99,7 +99,7 @@ h1{
 }
 
 #menu-container_dead_or_alive select{
-    background-color: rgb(247, 220, 159);
+    background-color: rgb(212, 237, 215);
     
 }
 
@@ -140,4 +140,15 @@ circle[data-label="patient"]:hover {
     font-family: Arial, sans-serif;
 }
 
+#github-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    color: gray; /* Change color to make it less prominent */
+    font-size: 12px; /* Smaller font size */
+}
 
+#github-link:hover {
+    color: blue; /* Change color on hover for visibility */
+}
