@@ -3,13 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D3 Visualization</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <title>Document</title>
 </head>
 <body>
-    <h1>D3.js Visualization</h1>
-    <div id="chart"></div>
-    <script src="index.js"></script>
+    <h1>What causes in-hospital fatalities?</h1>
+    <p style="font-size: 14px; color: red; text-align: center; max-width: 900px; margin: auto;">
+        *Normalization scales data based on the number of standard deviations from the mean, 
+        indicating how far a value is above or below the mean.*
+    </p>
+    <div id="menu-container_dead_or_alive" >
+
+    </div>
+    
+    <div id = "chart">
+
+    </div>
+    
+    <dl id="patient-tooltip" class="info tooltip">
+    
+    </dl>
+    
+    
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="main.js" type="module"></script>
+
+    <div id="menu-container"></div> 
 </body>
 </html>
