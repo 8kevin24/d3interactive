@@ -152,7 +152,7 @@ function getKeysFromValues(values, aliasDict) {
 
 
 const width = 950;
-const height = 325;
+const height = 300;
 
 function createPlot(categories) {
     
